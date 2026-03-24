@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: "PT Serif";
+    margin: 0;
+    padding: 0;
+    /* evita que elementos aumente de tamanho de forma inesperada facilitando o controle da responsividade respeitado os tamanhos definidos */
+    box-sizing: border-box;
+    list-style: none;
+    /*  */
+
+}
+
+.cabecalho {
+
+    /* preenchimento e cores */
+    background-color: #000000;
+    color: white;
+    padding: 1.5rem;
+    /* poderia ser 24px  */
+
+    /* Alinhamento dos itens */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    /* header fixo */
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index:777;
+}
+
+
+/*  logo do header*/
+.divlogo img {
+    width: 35%;
+    /* usando a % para diminuir seu tamnho */
+}
+
+
+/* estilizando o buttom do header */
+.divbuttom a button {
+
+    width: 5rem;  /* 5x 16= 80px essa é a conta padrão */
+    padding: 0.5rem;  /* 8px preenchimento */
+    background-color: #eff0d5; /* cor do botão */
+    border: none;  /*remoção das cores */
+    font-weight: 700; /* peso da expressura das letras */
+    border-radius: 5px;  /* aredondamneto da bordar pode se sar o px por ser um elemento fixo */
+    
+}
+
+
+.section1{
+
+    padding: 9rem;/* preenchimento interno da section */
+    background-image: url(imagens/torcida2.png);
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;  /*poderia usar 32px   */
+    flex-wrap: wrap; /*elemento que informa as div que em algum momento poderam quebrar se casso necessario  */
+
+}
+
+.div01{
+background-color:#9f111b ;  /* cor de fundo */
+color: white;   /* cor da letra */
+text-align: center;  /* alinhamento centralizado do texto */
+font-size: 2rem;   /*  tamnaho da fonte*/
+padding: 1rem;  /* preenchimento */
+width: 25%;   /* lagura da caixa em porcentagem*/
+height: 20rem;   /*altura  */
+min-width: 299px;  /* tamanho minimo  */
+
+
+
+}
+
+.div02{
+
+
+}
