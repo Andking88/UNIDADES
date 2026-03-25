@@ -29,7 +29,7 @@
     position: sticky;
     left: 0;
     top: 0;
-    z-index:777;
+    z-index: 777;
 }
 
 
@@ -43,47 +43,114 @@
 /* estilizando o buttom do header */
 .divbuttom a button {
 
-    width: 5rem;  /* 5x 16= 80px essa é a conta padrão */
-    padding: 0.5rem;  /* 8px preenchimento */
-    background-color: #eff0d5; /* cor do botão */
-    border: none;  /*remoção das cores */
-    font-weight: 700; /* peso da expressura das letras */
-    border-radius: 5px;  /* aredondamneto da bordar pode se sar o px por ser um elemento fixo */
-    
+    width: 5rem;
+    /* 5x 16= 80px essa é a conta padrão */
+    padding: 0.5rem;
+    /* 8px preenchimento */
+    background-color: #eff0d5;
+    /* cor do botão */
+    border: none;
+    /*remoção das cores */
+    font-weight: 700;
+    /* peso da expressura das letras */
+    border-radius: 5px;
+    /* aredondamneto da bordar pode se sar o px por ser um elemento fixo */
+
 }
 
 
-.section1{
+.section1 {
 
-    padding: 9rem;/* preenchimento interno da section */
-    background-image: url(imagens/torcida2.png);
+    padding: 9rem;
+    /* preenchimento interno da section */
+    background-image: url(imagens/arena-corinthians.jpg);
     background-position: center;
-    background-size:cover ;
+    background-size: cover;
     background-repeat: no-repeat;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;  /*poderia usar 32px   */
-    flex-wrap: wrap; /*elemento que informa as div que em algum momento poderam quebrar se casso necessario  */
+    gap: 2rem;
+    /*poderia usar 32px   */
+    flex-wrap: wrap;
+    /*elemento que informa as div que em algum momento poderam quebrar se casso necessario  */
 
 }
 
-.div01{
-background-color:#9f111b ;  /* cor de fundo */
-color: white;   /* cor da letra */
-text-align: center;  /* alinhamento centralizado do texto */
-font-size: 2rem;   /*  tamnaho da fonte*/
-padding: 1rem;  /* preenchimento */
-width: 25%;   /* lagura da caixa em porcentagem*/
-height: 20rem;   /*altura  */
-min-width: 299px;  /* tamanho minimo  */
+.div01 {
+    background-color: rgb(36, 33, 33);
+    /* cor de fundo */
+    color: white;
+    /* cor da letra */
+    text-align: center;
+    /* alinhamento centralizado do texto */
+    font-size: 1.8;
+    /*  tamnaho da fonte*/
+    padding: 1rem;
+    /* preenchimento */
+    width: 25%;
+    /* lagura da caixa em porcentagem*/
+    height: 20rem;
+    /*altura  */
+    min-width: 299px;
+    /* tamanho minimo  */
+
+
+}
+
+.div02 {
+
+    padding: 1rem;
+    /* preenchimento */
+    width: 25%;
+    /* lagura da caixa em porcentagem*/
+    height: 20rem;
+    /*altura  */
+    min-width: 299px;
+    /* tamanho minimo  */
+background-image: url(imagens/gramado.png);
+background-repeat: no-repeat;
+background-position: top;
+/* linear-gradient(180deg, #01021064 8, 33%, rgba(7, 15, 28, 0.755) 100%), url(imagens/torcida2.png); */
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+flex-direction: column;
+
 
 
 
 }
 
-.div02{
+.ul-div1 li a {
 
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 1rem;
+    border-radius: 5px;
+    /*aredondamento da borda  */
+
+
+}
+
+.ul-div1 li {
+    margin: 30px 45px;
+    /* altera os 4 lados dos elementos o primeiro elemnto em px é(superior e inferior) segundo elemento é (esqueda e direita) */
+
+
+}
+
+.ul-div1{
+    margin: 5px 5px;
+}
+
+.fa-9, .fa-7 {
+
+    color: #000000;
+    font-size: 1.6rem;
 
 }
