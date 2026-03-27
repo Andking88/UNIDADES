@@ -199,8 +199,26 @@ span {
 
 }
 
-.div-caixa:hover{
-     box-shadow: 12px 12px 22px rgb(148, 25, 25);
-     transition: 0.8;
+.div-caixa:hover {
+    box-shadow: 12px 12px 22px rgb(148, 25, 25);
+    transition: 0.8;
 
+}
+
+.section3 {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5rem;
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(71, 64, 64, 1) 100%, rgba(196, 187, 187, 1) 61%, rgba(255, 247, 247, 0.68) 100%);
+    flex-wrap: wrap;
+    /* wrap coso nessesario quebrar as caixas dependendo da tela */
+}
+
+.divsec3-a, .divsec3-b{
+
+    margin: 13rem;
 }
