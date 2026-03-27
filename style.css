@@ -14,7 +14,8 @@
 .cabecalho {
 
     /* preenchimento e cores */
-    background-color: #000000;
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(71, 64, 64, 1) 100%, rgba(196, 187, 187, 1) 61%, rgba(255, 247, 247, 0.68) 100%);
     color: white;
     padding: 1.5rem;
     /* poderia ser 24px  */
@@ -35,7 +36,7 @@
 
 /*  logo do header*/
 .divlogo img {
-    width: 35%;
+    width: 55%;
     /* usando a % para diminuir seu tamnho */
 }
 
@@ -55,6 +56,7 @@
     /* peso da expressura das letras */
     border-radius: 5px;
     /* aredondamneto da bordar pode se sar o px por ser um elemento fixo */
+    font-family: "PT Serif";
 
 }
 
@@ -79,7 +81,9 @@
 }
 
 .div01 {
-    background-color: rgb(36, 33, 33);
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(71, 64, 64, 1) 100%, rgba(196, 187, 187, 1) 61%, rgba(255, 247, 247, 0.68) 100%);
+    font-weight: bold;
     /* cor de fundo */
     color: white;
     /* cor da letra */
@@ -109,15 +113,15 @@
     /*altura  */
     min-width: 299px;
     /* tamanho minimo  */
-background-image: url(imagens/gramado.png);
-background-repeat: no-repeat;
-background-position: top;
-/* linear-gradient(180deg, #01021064 8, 33%, rgba(7, 15, 28, 0.755) 100%), url(imagens/torcida2.png); */
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 15px;
-flex-direction: column;
+    background-image: url(imagens/gramado.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    /* linear-gradient(180deg, #01021064 8, 33%, rgba(7, 15, 28, 0.755) 100%), url(imagens/torcida2.png); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
 
 
 
@@ -144,13 +148,59 @@ flex-direction: column;
 
 }
 
-.ul-div1{
+.ul-div1 {
     margin: 5px 5px;
 }
 
-.fa-9, .fa-7 {
+.fa-9,
+.fa-7 {
 
     color: #000000;
     font-size: 1.6rem;
+
+}
+
+span {
+    color: red;
+
+}
+
+.img-div {
+
+    padding: 3%;
+    background-image: url(imagens/textura5.jpg);
+    background-position: center;
+    background-size: cover;
+    /* preenchimento total da img na caixa */
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5rem;
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(71, 64, 64, 1) 100%, rgba(196, 187, 187, 1) 61%, rgba(255, 247, 247, 0.68) 100%);
+    flex-wrap: wrap;
+    /* wrap coso nessesario quebrar as caixas dependendo da tela */
+
+}
+
+.div-caixa {
+    width: 25%;
+    height: 22rem;
+    background-color: white;
+    min-width: 200px;
+    font-size: 1.2rem;
+    color: #000000;
+    box-shadow: 10px 10px 20px rgb(70, 20, 20);
+    cursor: pointer;
+
+}
+
+.div-caixa:hover{
+     box-shadow: 12px 12px 22px rgb(148, 25, 25);
+     transition: 0.8;
 
 }
