@@ -103,6 +103,8 @@
 
 }
 
+
+
 .div02 {
 
     padding: 1rem;
@@ -123,10 +125,8 @@
     gap: 15px;
     flex-direction: column;
 
-
-
-
 }
+
 
 .ul-div1 li a {
 
@@ -192,7 +192,8 @@ span {
     height: 22rem;
     background-color: white;
     min-width: 299px;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
     color: #000000;
     box-shadow: 10px 10px 20px rgb(70, 20, 20);
     cursor: pointer;
@@ -205,6 +206,25 @@ span {
 
 }
 
+.section2 div p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+
+}
+
+.section2 .cx02 {
+    background-image: url(imagens/camisa-3-corinthians-v2.gif);
+
+}
+
+.section2 .cx02 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
 .section3 {
 
     display: flex;
@@ -215,77 +235,134 @@ span {
     background: #000000;
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(71, 64, 64, 1) 100%, rgba(196, 187, 187, 1) 61%, rgba(255, 247, 247, 0.68) 100%);
     flex-wrap: wrap;
-    /* wrap coso nessesario quebrar as caixas dependendo da tela */
-    
+    /* wrap coso nessesario quebrar as caixas 
+    dependendo da tela */
+    text-align: center;
+
 }
 
-.divsec3-a, .divsec3-b{
+.divsec3-a,
+.divsec3-b {
 
     height: 15rem;
     padding: 1rem;
 
 }
 
-.text-div3{
+.text-div3 {
 
-    text-align: start;
-    margin-top: 5px ;
+    text-align: center;
+    margin-top: 5px;
     margin: 1rem;
     font-weight: 600;
 }
 
-.fa-youtube{
+.fa-youtube {
 
     color: red;
     font-size: 2rem;
-    text-align: center;
-
+  
 }
 
-.fa-x-twitter{
+.fa-x-twitter {
     color: #000000;
     font-size: 2rem;
-    text-align: center;
+    
 }
 
-.fa-instagram{
+.fa-instagram {
 
     color: rgb(211, 16, 211);
     font-size: 2rem;
     font-weight: 900;
+    
+}
+
+.div-button-sec3 a button {
+    padding: 0.6rem;
+    background-color: #000000;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+
+
+
+}
+
+.textsec-3b p {
+    color: #000000;
+    font-weight: 600;
+    font-size: 1rem;
     text-align: center;
-}
-
-.div-button-sec3 a button{
-padding: 0.6rem ;
-background-color: #000000;
-color: white;
-font-weight: 600;
-border-radius: 8px;
-border: none;
-
+    margin-top: 1rem;
 
 
 }
 
-.textsec-3b p{
-   color: #000000;
-   font-weight: 600;
-   font-size: 1rem;
-   
+.section4 {
 
-}
-
-.section4{
-
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
     padding: 5rem;
-    background: #000000;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(71, 64, 64, 1) 100%, rgba(196, 187, 187, 1) 61%, rgba(255, 247, 247, 0.68) 100%);
+    background: #423333;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(124, 109, 109) 100%, rgb(107, 76, 76) 61%, rgba(255, 247, 247, 0.68) 100%);
     flex-wrap: wrap;
     /* wrap coso nessesario quebrar as caixas dependendo da tela */
 
 }
+
+
+.rodape{
+    background: #423333;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(124, 109, 109) 100%, rgb(107, 76, 76) 61%, rgba(255, 247, 247, 0.68) 100%);
+    padding: 2rem;
+    text-align:center;
+    font-size: 1.1rem;
+    
+}
+   
+.content{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.sicialmidia{
+    padding: 1.5rem;/* preenchimento e respiro dos icones */
+
+}
+
+.sicialmidia i{
+    font-size: 2em; /* 32px tamanho do icon */
+    margin: 0.5em;
+}
+ 
+.line{
+    width: 60%; /* largura da linha */
+    margin: 0.3rem auto;/* espaçamento em torno da linha superio e inferior (0.5) com as laterais automaticas definido pelo navegador*/
+    background-color: red; /* cor de fubdo da linha */
+    border: none; /* remover a borda da linha */
+    height: 2px; /* manter altura fixa da linha em px*/
+
+}
+
+.div-list ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.div-list ul li a:hover{
+    color: red;
+    transition: 0.8s;
+    
+}
+
+
