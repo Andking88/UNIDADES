@@ -48,7 +48,7 @@
     /* 5x 16= 80px essa é a conta padrão */
     padding: 0.5rem;
     /* 8px preenchimento */
-    background-color: #eff0d5;
+    background-color: rgb(224, 115, 13);
     /* cor do botão */
     border: none;
     /*remoção das cores */
@@ -57,6 +57,7 @@
     border-radius: 5px;
     /* aredondamneto da bordar pode se sar o px por ser um elemento fixo */
     font-family: "PT Serif";
+    color: white;
 
 }
 
@@ -65,7 +66,7 @@
 
     padding: 9rem;
     /* preenchimento interno da section */
-    background-image: url(imagens/arena-corinthians.jpg);
+    background-image: url(imagens/squad.avif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -131,9 +132,9 @@
 .ul-div1 li a {
 
     text-decoration: none;
-    background-color: red;
+    background-color: rgb(247, 122, 5);
     color: white;
-    padding: 1px;
+    padding: 1.5px;
     font-size: 1rem;
     border-radius: 5px;
     /*aredondamento da borda  */
@@ -156,19 +157,19 @@
 .fa-7 {
 
     color: #000000;
-    font-size: 1.6rem;
+    font-size: 2rem;
 
 }
 
 span {
-    color: red;
+    color: rgb(224, 115, 13);
 
 }
 
 .img-div {
 
     padding: 3%;
-    background-image: url(imagens/textura5.jpg);
+    background-image: url(footer-corinthians-nike-futebol.webp);
     background-position: center;
     background-size: cover;
     /* preenchimento total da img na caixa */
@@ -195,15 +196,21 @@ span {
     font-size: 1rem;
     font-weight: 600;
     color: #000000;
-    box-shadow: 10px 10px 20px rgb(70, 20, 20);
+    box-shadow: 8px 8px 18px rgb(0, 0, 0);
     cursor: pointer;
 
 }
 
 .div-caixa:hover {
-    box-shadow: 12px 12px 22px rgb(148, 25, 25);
+    box-shadow: 10px 10px 20px rgb(224, 115, 13);
     transition: 0.8;
 
+}
+
+.section2 .cx01 {
+    background-color: #000000;
+    color: white;
+    text-align: center;
 }
 
 .section2 div p {
@@ -215,12 +222,34 @@ span {
 
 .section2 .cx02 {
     background-image: url(imagens/camisa-3-corinthians-v2.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 22rem 22rem;
 
 }
 
-.section2 .cx02 img{
-    width: 100%;
-    height: 100%;
+.section2 .cx03 {
+    background-image: url(imagens/atleta-corinthians-1.avif);
+    background-size: 22rem 22rem;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.section2 .cx03 button {
+    padding: 0.3rem;
+    font-weight: 900;
+    border: rgb(179, 89, 6);
+    border-radius: 7px;
+    background-color: rgb(224, 115, 13);
+    font-size: 1rem;
+    color: white;
+}
+
+.section2 .cx03 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -232,8 +261,7 @@ span {
     align-items: center;
     gap: 1.5rem;
     padding: 5rem;
-    background: #000000;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(71, 64, 64, 1) 100%, rgba(196, 187, 187, 1) 61%, rgba(255, 247, 247, 0.68) 100%);
+    background-image: url(imagens/arena-corinthians.jpg);
     flex-wrap: wrap;
     /* wrap coso nessesario quebrar as caixas 
     dependendo da tela */
@@ -261,13 +289,13 @@ span {
 
     color: red;
     font-size: 2rem;
-  
+
 }
 
 .fa-x-twitter {
     color: #000000;
     font-size: 2rem;
-    
+
 }
 
 .fa-instagram {
@@ -275,7 +303,7 @@ span {
     color: rgb(211, 16, 211);
     font-size: 2rem;
     font-weight: 900;
-    
+
 }
 
 .div-button-sec3 a button {
@@ -311,20 +339,67 @@ span {
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(124, 109, 109) 100%, rgb(107, 76, 76) 61%, rgba(255, 247, 247, 0.68) 100%);
     flex-wrap: wrap;
     /* wrap coso nessesario quebrar as caixas dependendo da tela */
+    text-align: center;
 
 }
 
+.section4 .cxa {
+    background-image: url(imagens/produto.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 22rem 22rem;
 
-.rodape{
+}
+
+.section4 .cxb {
+    background-image: url(imagens/produto2.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 22rem 22rem;
+}
+
+.section4 .cxc h2 {
+    text-align: center;
+
+}
+
+.section4 .cxc p {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+
+}
+
+.fa-star,
+.fa-star-half {
+    text-align: center;
+    color: rgb(255, 167, 3);
+    font-weight: 900;
+
+}
+
+.section4 .cxc button {
+    padding: 0.3rem;
+    font-weight: 900;
+    border: rgb(179, 89, 6);
+    border-radius: 5px;
+    background-color: rgb(224, 115, 13);
+    font-size: 0.7rem;
+    color: white;
+
+}
+
+.rodape {
     background: #423333;
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(124, 109, 109) 100%, rgb(107, 76, 76) 61%, rgba(255, 247, 247, 0.68) 100%);
     padding: 2rem;
-    text-align:center;
+    text-align: center;
     font-size: 1.1rem;
-    
+
 }
-   
-.content{
+
+.content {
     display: flex;
     align-items: center;
     gap: 3rem;
@@ -334,35 +409,48 @@ span {
 
 }
 
-.sicialmidia{
-    padding: 1.5rem;/* preenchimento e respiro dos icones */
+.sicialmidia {
+    padding: 1.5rem;
+    /* preenchimento e respiro dos icones */
 
 }
 
-.sicialmidia i{
-    font-size: 2em; /* 32px tamanho do icon */
+.sicialmidia p{
+    color: white;
+    font-weight: 800;
+    
+}
+
+.sicialmidia i {
+    font-size: 2em;
+    /* 32px tamanho do icon */
     margin: 0.5em;
 }
- 
-.line{
-    width: 60%; /* largura da linha */
-    margin: 0.3rem auto;/* espaçamento em torno da linha superio e inferior (0.5) com as laterais automaticas definido pelo navegador*/
-    background-color: red; /* cor de fubdo da linha */
-    border: none; /* remover a borda da linha */
-    height: 2px; /* manter altura fixa da linha em px*/
+
+.line {
+    width: 60%;
+    /* largura da linha */
+    margin: 0.3rem auto;
+    /* espaçamento em torno da linha superio e inferior (0.5) com as laterais automaticas definido pelo navegador*/
+    background-color: rgb(224, 115, 13);
+    /* cor de fubdo da linha */
+    border: none;
+    /* remover a borda da linha */
+    height: 2px;
+    /* manter altura fixa da linha em px*/
 
 }
 
-.div-list ul li a{
+.div-list ul li a {
     color: white;
     text-decoration: none;
 
 }
 
-.div-list ul li a:hover{
-    color: red;
+.div-list ul li a:hover {
+    color: rgb(224, 115, 13);
     transition: 0.8s;
-    
+
 }
 
 
