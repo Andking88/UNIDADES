@@ -168,7 +168,7 @@ span {
 
 .img-div {
 
-    padding: 3%;
+    padding: 6%;
     background-image: url(footer-corinthians-nike-futebol.webp);
     background-position: center;
     background-size: cover;
@@ -266,6 +266,8 @@ span {
     /* wrap coso nessesario quebrar as caixas 
     dependendo da tela */
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -393,7 +395,7 @@ span {
 .rodape {
     background: #423333;
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgb(124, 109, 109) 100%, rgb(107, 76, 76) 61%, rgba(255, 247, 247, 0.68) 100%);
-    padding: 2rem;
+    padding: 2.5rem;
     text-align: center;
     font-size: 1.1rem;
 
